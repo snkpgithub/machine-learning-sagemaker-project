@@ -1,26 +1,51 @@
-# Generative AI Labs and Model Deployments
-### AWS Sagemaker
+# Machine Learning SageMaker Project
+### Generative AI Labs and Model Deployments using AWS SageMaker
 
+This project is inspired by the AWS Immersion Day format and is aimed at helping users get started with Generative AI using AWS services, especially SageMaker. It is structured into four main modules, each combining theoretical background (via slides) and practical hands-on labs (via Jupyter notebooks).
 
-<span style="color:red">**This workshop has moved to an official AWS repository and can now be found [here](https://github.com/aws-samples/generative-ai-on-aws-immersion-day). This repository is no longer being maintained.**</span>
+### 🧠 Modules Included:
+1. **Introduction to Generative AI & Large Language Models**
+   - Model deployment and inference optimization
+2. **Finetuning Large Language Models**
+3. **Visual Foundation Models**
+   - Stable Diffusion deployment and inference
+4. **Building GenAI Applications**
+   - Engineering GenAI-powered apps using Retrieval-Augmented Generation (RAG)
 
-This workshop is set up following the popular AWS Immersion Day format. It means to provide guidance on how to get started with Generative AI on AWS. The Immersion Day is split up into the following four blocks, consisting of a theory section covered by slides as well of a hands-on lab each:
-- Introduction Generative AI & Large Language Models, Large Language Model deployment & inference optimization
-- Large Language Model finetuning
-- Introduction Visual Foundation Models, deployment & inference optimization of Stable Diffusion
-- Engineering GenAI-powered applications on AWS
+> Note: During workshops or personal learning sessions, you may choose to cover only a subset of these modules.
 
-Note that during an immersion day / workshop potentially only a subset of these topics might be covered.
+---
 
-The repository is structured as follows: The slides can be found in the GenerativeAIImmersionDayPresentationDeck.pdf residing on root level of the repository. Similarily, the labs can be found in respectively named directories: 
-- Lab 1 - Hosting Large Language Models can be found in the lab1 directory. 
-    - Option 1: For GPT-J start with the notebook option-1-gpt-j-notebook-full.ipynb.
-    - Option 2: For Falcon40b-instruct start with the notebook falcon40b-instruct-notebook-full.ipynb.
-- Lab 2 - Finetuning Large Language Models can be found in the lab2 directory. Start with the notebook fine-tuning.ipynb.
-- Lab 3 - Hosting Stable Diffusion can be found in the lab3 directory. Start with the notebook JumpStart_Stable_Diffusion_Inference_Only.ipynb.
-- Lab 4 - Building the LLM-powered chatbot "AWSomeChat" with retrieval-augmented generation. Start with the notebook rag-app.ipynb.
+### 📁 Repository Structure:
 
-For conducting the labs, some basic account setup steps are required. They are described subsequently in what follows.
+- 📊 **Slides**:  
+  `GenerativeAIImmersionDayPresentationDeck.pdf` — Available at the root of the repository
+
+- 🔬 **Lab 1: Hosting Large Language Models** (`lab1/`)  
+  - Option 1: GPT-J → `option-1-gpt-j-notebook-full.ipynb`  
+  - Option 2: Falcon40B-Instruct → `falcon40b-instruct-notebook-full.ipynb`
+
+- 🛠️ **Lab 2: Finetuning LLMs** (`lab2/`)  
+  - Start with → `fine-tuning.ipynb`
+
+- 🎨 **Lab 3: Hosting Stable Diffusion** (`lab3/`)  
+  - Start with → `JumpStart_Stable_Diffusion_Inference_Only.ipynb`
+
+- 🤖 **Lab 4: Building AWSomeChat using RAG** (`lab4/`)  
+  - Start with → `rag-app.ipynb`
+
+---
+
+### 🧰 Prerequisites:
+To conduct the labs successfully, make sure your AWS account is properly set up. This includes permissions for using SageMaker, S3, and related services. Configuration details are provided in the setup section of each lab.
+
+---
+
+Let me know if you'd like me to:
+- Add a logo/banner
+- Make a `setup.md` or `CONTRIBUTING.md` file
+- Add badges (build, license, etc.)
+
 
 # Setup
 
