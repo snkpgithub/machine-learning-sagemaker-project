@@ -1,4 +1,5 @@
-# Generative AI Immersion Day
+# Generative AI Labs and Model Deployments
+### AWS Sagemaker
 
 
 <span style="color:red">**This workshop has moved to an official AWS repository and can now be found [here](https://github.com/aws-samples/generative-ai-on-aws-immersion-day). This repository is no longer being maintained.**</span>
